@@ -1,0 +1,31 @@
+body {
+  background-color: #343a40;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatchcontainer{
+  display: flex;
+  flex-direction: column;
+}
+.stopWatch {
+  color: #ffc107;
+  font-size: 200px;
+  font-weight: bold;
+}
+.milliSeconds{
+  text-align: right;
+  margin-bottom: 20px;
+  color: #ffc107;
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  user-select: none;
+}
+
+button {
+  margin: 10px;
+}

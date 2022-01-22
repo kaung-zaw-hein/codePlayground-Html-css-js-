@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="./css/modules/login.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="contactinfo">
+                    <a href="./index.html">
+                        <span>Tank</span>
+                        <span>C</span>
+                        <span>Rew</span>
+                    </a>
+                    <div class="midtext">
+                        Welcome Page
+                    </div>
+                    <div class="footer">
+                        www.tankcrew.com
+                    </div>
+                </div> 
+                <div class="contactform">
+                    <h2>Sign Out</h2>
+                    <form class="formbox">
+                        <div class="inputbox">
+                            <input class="errormesg" id="username" type="text" required>
+                            <span>User Name</span>
+                            <p class="us">(User Name must include 1capital Letter)</p>
+                        </div>
+                        <div class="inputbox">
+                            <input class="errormesg" id="email" type="text" required>
+                            <span>Email Address</span>
+                            <p class="em"></p>
+                        </div>
+                        <div class="inputbox">
+                            <input class="errormesg" id="password" type="password" required>
+                            <span>Password</span>
+                            <p class="ps">(no space between characters,minimum length of password: 6)</p>
+                        </div>
+                        <div class="inputbox">
+                            <input class="errormesg" id="password" type="password" required>
+                            <span>Confirmed Password</span>
+                            <!-- <p class="ps">(no space between characters,minimum length of password: 6)</p> -->
+                        </div>
+                        <div class="feature1">
+                            <input type="checkbox" id="feature1"/><div></div>
+                            <span>Receive Updates</span>
+                        </div>
+                        <button  class="conbtn" onclick="myFunction()" ><p>Continue</p></button>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

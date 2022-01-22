@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class ="container">
+            <ul class="thumb">
+                <li onmouseover="changeImageSrc('shoes1.png')"><img src="shoes1.png"></li>
+                <li onmouseover="changeImageSrc('shoes2.png')"><img src="shoes2.png"></li>
+                <li onmouseover="changeImageSrc('shoes3.png')"><img src="shoes3.png"></li>
+            </ul>
+            <div class="imgbox">
+                <h2>Nike Air Zoom</h2>
+                <img class="imgsrc" src="shoes1.png">
+                <ul class="size"><span>Size</span>
+                    <li onmouseover="changeWidth('80%')">7</li>
+                    <li onmouseover="changeWidth('83%')">8</li>
+                    <li onmouseover="changeWidth('86%')">9</li>
+                    <li onmouseover="changeWidth('89%')">10</li>
+                </ul>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

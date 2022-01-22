@@ -1,0 +1,62 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  display:flex;  
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  min-height: 100vh;
+  background: #0a2a43;
+}
+h2{
+  font-size:2em;
+  text-align: center;
+  user-select: none;
+}
+h2 span{
+  position:relative;;
+  display:inline-flex;
+  color: rgb(26, 152, 202);
+}
+h2 span:nth-child(odd){
+  letter-spacing:-1em;
+  color:rgb(255, 255, 255);
+  overflow:hidden;
+  transition:1s ease-in-out;
+}
+h2:hover span:nth-child(odd){
+  letter-spacing:0;  
+}
+h2 span:nth-child(2){
+  margin-right:10px;
+}
+h2 span:nth-child(2):before{
+content: "N";
+position:absolute;
+left:20px;
+transition:1.5s ease-in-out;
+}
+span:nth-child(2):after{
+  width:100px;
+  content: "Cinema In Your Area";
+  position:absolute;
+  left:-20px;
+  bottom:-10px;
+  font-size:10px;
+  opacity:0;
+  visibility: hidden;
+  transition:1s ease-in;
+  }
+h2:hover span:nth-child(2):before{  
+  opacity:0;
+}  
+h2:hover span:nth-child(2):after{
+  opacity:1;
+  visibility: visible;
+  }

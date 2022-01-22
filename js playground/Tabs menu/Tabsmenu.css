@@ -1,0 +1,41 @@
+body{
+    background: rgb(32, 19, 19);
+    color: white;
+}
+.container{
+    margin-top : 100px;
+    margin-left: 200px;
+}
+.tabmenu{
+    position : relative;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style-type: none;
+    padding:10px 20px ;
+    cursor: pointer;
+    display: inline-block;
+    color: aliceblue;
+    user-select: none;
+    background-color: rgb(56, 7, 146);
+}
+.slider{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(158, 136, 12);
+    transition: all 0.5s ease-in-out; 
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+.tabcontainer{
+    background-color: rgb(36, 25, 25);
+}  
+.displaytext{
+    display: block;
+}
